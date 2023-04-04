@@ -1,0 +1,320 @@
+* {
+    font-family: 'Inter';
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+}
+
+header {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    position: sticky;
+    margin-top: auto;
+    background-color: #94B6BB;
+}
+
+.textFooter1 {
+    font-weight: 500;
+    padding: 15px 10px 0px 35px;
+    font-size: 20px;
+}
+
+.textFooter2 {
+    font-weight: lighter;
+    padding: 5px 10px 0px 35px;
+    font-size: 15px;
+}
+
+.Logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+    width: 300px;
+    height: 100%;
+}
+
+.logoIMG {
+    width: 80px;
+    height: 80px;
+}
+
+.container {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+}
+
+.CorpoConsulta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 800px;
+    height: 1800px;
+}
+
+.Corpo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.Corpo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.copyright {
+    color: #94B6BB;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    min-height: 600px;
+    height: 720px;
+    width: 100%;
+    background-color: #D2EDF9;
+}
+
+.imageCristina {
+    top: 150px;
+    left: 150px;
+    position: absolute;
+    background-color: #c9c9c9;
+    position: absolute;
+    height: 450px;
+    width: 400px;
+}
+
+.imageCristinaFundo {
+    top: 165px;
+    left: 165px;
+    background-color: #87C4DE;
+    position: absolute;
+    height: 450px;
+    width: 400px;
+}
+
+.TituloNome {
+    position: absolute;
+    top: 145px;
+    left: 650px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 40px;
+    line-height: 48px
+}
+
+.TituloFaculade {
+    position: absolute;
+    top: 245px;
+    left: 700px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.TituloEspecialista {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.Especialista {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.Diagnóstico {
+    position: absolute;
+    top: 335px;
+    left: 715px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Psicoterapia {
+    position: absolute;
+    top: 370px;
+    left: 715px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Neuropsicopedagogia {
+    position: absolute;
+    top: 405px;
+    left: 715px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Neuropsicologia {
+    position: absolute;
+    top: 440px;
+    left: 715px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.PósFaculdade {
+    position: absolute;
+    top: 530px;
+    left: 700px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.botaoContato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 650px;
+    top: 615px;
+    width: 200px;
+    height: 75px;
+    background: #85C5E1;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.TextBotao {
+    font-size: 25px;
+    color: #2b2b2b;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.navItems {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navText {
+    font-size: 20px;
+    padding: 75px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.currentNav {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 75px;
+    color: #025B6D;
+}
+
+.botaoFaq {
+    display: flex;
+    flex-direction: column;
+    top: 750px;
+    left: 100px;
+    position: absolute;
+    height: 150px;
+    min-width: 400px;
+    background-color: #fafafa;
+    border: 5px solid #91D8F7;
+
+}
+
+.faqText1 {
+    padding: 10px;
+    height: 33%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+.faqText2 {
+    padding: 10px;
+    height: 33%;
+    color: #2b2b2b;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.faqText3 {
+    text-align: right;
+    padding: 10px;
+    height: 33%;
+    color: #2b2b2b;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mapa {
+    position: absolute;
+    left: 410px;
+}
+
+.mapa2 {
+    top: 1095px;
+    background-color: #97E3D6;
+    position: absolute;
+    height: 550px;
+    width: 1015px;
+    left: 425px;
+}
+
+.borboleta {
+    position: relative;
+    top:100px;
+    left: 120px;
+    opacity: 0.2;
+    transform: matrix(-0.99, -0.16, -0.16, 0.99, 0, 0);
+}
